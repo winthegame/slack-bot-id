@@ -1,11 +1,5 @@
 var Botkit = require('botkit');
 
-if (!process.env.token) {
-  //console.log('Error: Specify token in environment');
-  //process.exit(1);
-  process.env.token = 'xoxb-17359744839-MbDohBGzCDGKF2RCr3euKdmC';
-}
-
 var controller = Botkit.slackbot({
  debug: false
 });
